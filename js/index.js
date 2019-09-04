@@ -14,6 +14,14 @@ function loadDoc(url, cFunction) {
 document.getElementById('about').addEventListener('click', function(){
     loadDoc('htmls/about.txt', About);
     $('#about').attr('class','active');
+    $('#skills').attr('class','');
+    $('#projects').attr('class','');
+});
+document.getElementById('skills').addEventListener('click', function(){
+    loadDoc('htmls/skills.txt', About);
+    $('#skills').attr('class','active');
+    $('#about').attr('class','');
+    $('#projects').attr('class','');
 });
 
 
@@ -21,7 +29,7 @@ function About(xhttp){
     document.getElementById('here').innerHTML = xhttp.responseText;
 }
 
-$(document).ready(function(){
+/* $(document).ready(function(){
     loadDoc('htmls/about.txt', About);
     $('#about').attr('class','active');
-});
+}); */
