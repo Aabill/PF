@@ -12,13 +12,14 @@
                 </div>
 
                 <div class="about-contact-social">
+                    <span><a href="https://github.com/Aabill" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></span>
                     <span><a href="https://fb.com/aabill.domingo" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></span>
                     <span><a href="https://instagram.com/aabb.domingo" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></span>
                     <span><a href="https://twitter.com/R_on_Bill" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></span>
                 </div>
             </div>
             <div class='about-note'>
-                    <p>My ambition is to become a <b>full-stack developer. </b> When I'm not coding, I like to play some musical instruments or sing, play basketball, or play some dota.</p>
+                    <p>My ambition is to become a <b>full-stack developer. </b> When I'm not coding, I like to play guitar or sing, play basketball, or play some dota.</p>
             </div>
             <div class="about-resume">
                 <a href="files/Aaron's Resume.pdf" download> 

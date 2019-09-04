@@ -40,4 +40,34 @@ $(document).ready(function(){
     $('#about').attr('class','inactive');
     $('#skills').attr('class','inactive');
     $('#projects').attr('class','inactive');
+    if(window.innerWidth > 768){
+      $('.nav').show();
+    }
 });
+
+var burger = 0;
+$('.nav-burger').click(function(){
+  burger++;
+  if(burger > 1){
+    $('.nav').hide();
+    burger=0;
+    return;
+  }else{
+  $('.nav').show();
+}
+});
+
+$('.nav-min').click(function(){
+  if(window.innerWidth > 768){}else{
+    $('.nav-burger').click();
+  }
+});
+
+window.onresize  =  () => {
+  if(window.innerWidth > 768){
+    $('.nav').show();
+  }else{
+    $('.nav').hide();
+    burger = 0;
+  }
+}
