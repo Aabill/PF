@@ -4,7 +4,7 @@
                 <h4>*Title: Mobile and Web-based Individual Health Profiling System</h4>
                 <div style="font-size: 15px;">
                     <p>Basically, its a system for storing data and then generating its table as xls file. </p><p>The system consists an android application for storing, editing, deleting data offline and uploading data to its web-app where all the uploaded files are tabulated and monitored for generating an xls file.</p>
-                    <p>Web app domain is still running <a href="https://old.ihps.app" target="_blank">here</a>.The android application's sphagetti source <a target="_blank" href="https://github.com/Aabill/Phonegap-Ihps"> code</a>, or <a target="_blank" href="files/ihps.apk" download>download</a> its apk file.  </p>
+                    <p>Web app is still running <a href="https://old.ihps.app" target="_blank">here</a>.The android application's sphagetti source <a target="_blank" href="https://github.com/Aabill/Phonegap-Ihps"> code</a>, or <a target="_blank" href="files/ihps.apk" download>download</a> its apk file.  </p>
                 </div>
             </div>
             <div>

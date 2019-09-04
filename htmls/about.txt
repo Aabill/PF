@@ -1,1 +1,28 @@
-<p>My ambition is to become a <b>full-stack developer. </b> When I'm not coding, I like to play some musical instruments or sing, play basketball, or play some dota.</p>
+ <div class="about">
+            <div class="about-image">
+
+            </div>
+            <div class="about-contact">
+                <div>
+                <h3><i class="fa fa-phone" aria-hidden="true"></i> Contact Details  </h3>
+                <p> Aaron Bill Domingo</p>
+                <p> <i class="fa fa-location-arrow" aria-hidden="true"></i> Bambang, Nueva Vizcaya, Philippines</p>
+                <p><i class="fa fa-mobile" aria-hidden="true"></i> +63 961 139 6893</p>
+                <p ><i class="fa fa-envelope-o" aria-hidden="true"></i> domingoaaronbill@gmail.com</p>
+                </div>
+
+                <div class="about-contact-social">
+                    <span><a href="https://fb.com/aabill.domingo" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></span>
+                    <span><a href="https://instagram.com/aabb.domingo" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></span>
+                    <span><a href="https://twitter.com/R_on_Bill" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></span>
+                </div>
+            </div>
+            <div class='about-note'>
+                    <p>My ambition is to become a <b>full-stack developer. </b> When I'm not coding, I like to play some musical instruments or sing, play basketball, or play some dota.</p>
+            </div>
+            <div class="about-resume">
+                <a href="files/Aaron's Resume.pdf" download> 
+                  Download Resume </a>
+            </div>
+
+        </div>
