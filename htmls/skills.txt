@@ -73,8 +73,10 @@
                 </div>
             </div>
             <div class='skills-note'>
+                
+                <p>I recently got my Degree in Bachelor of Science in Computer Engineering at Saint Mary's University, Bayombong, Nueva Vizcaya. Sometime after I graduated, I was thinking about what I want to do. Then, I decided to become a web developer. But, I knew in me that I wasn't qualified yet, so I started learning with the internet. Now, I think I'm slightly ready to step it up.</p>
                 <p>I've been moderately practicing, reading and learning these things 
-                    since june, for some days after our grad day.
+                since june, for some days after our grad day.
                 </p>
             </div>
         </div>

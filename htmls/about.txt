@@ -1,17 +1,1 @@
-<div class="about">
-        <div>
-            <h1>Hi! I'm Aaron!</h1>
-        </div>
-        <div>
-            <h4>just call me aron, ron or ey-eyron.</h4>
-        </div>
-        <div>
-        <p>I would like to apply as an  <b>  Associate Software Engineer</b> (entry level) for Accenture.
-
-        I am willing to learn new languages, tools or frameworks for the company, and 
-
-        I am desperate to share my skills and excited to learn more about coding.</p>
-        
-        <p>My ambition is to become a <b>full-stack developer. </b> When I'm not coding, I like to play some musical instruments or sing, play basketball, or play some dota.</p></div>
-        
-    </div>
+<p>My ambition is to become a <b>full-stack developer. </b> When I'm not coding, I like to play some musical instruments or sing, play basketball, or play some dota.</p>

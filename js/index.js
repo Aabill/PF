@@ -13,15 +13,21 @@ function loadDoc(url, cFunction) {
 
 document.getElementById('about').addEventListener('click', function(){
     loadDoc('htmls/about.txt', About);
-    $('#about').attr('class','active');
-    $('#skills').attr('class','');
-    $('#projects').attr('class','');
+    $('#about').attr('class','');
+    $('#skills').attr('class','inactive');
+    $('#projects').attr('class','inactive');
 });
 document.getElementById('skills').addEventListener('click', function(){
     loadDoc('htmls/skills.txt', About);
-    $('#skills').attr('class','active');
-    $('#about').attr('class','');
+    $('#skills').attr('class','');
+    $('#about').attr('class','inactive');
+    $('#projects').attr('class','inactive');
+});
+document.getElementById('projects').addEventListener('click', function(){
+    loadDoc('htmls/projects.txt', About);
     $('#projects').attr('class','');
+    $('#about').attr('class','inactive');
+    $('#skills').attr('class','inactive');
 });
 
 
@@ -29,7 +35,9 @@ function About(xhttp){
     document.getElementById('here').innerHTML = xhttp.responseText;
 }
 
-/* $(document).ready(function(){
-    loadDoc('htmls/about.txt', About);
-    $('#about').attr('class','active');
-}); */
+$(document).ready(function(){
+    loadDoc('htmls/home.txt', About);
+    $('#about').attr('class','inactive');
+    $('#skills').attr('class','inactive');
+    $('#projects').attr('class','inactive');
+});
