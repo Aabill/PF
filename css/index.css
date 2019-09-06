@@ -377,14 +377,19 @@ h1, h4, h3 {
     }
 
     .about-resume {
-        display: block;
-        position: relative;
-        width: inherit;
-        height: inherit;
-        margin: 15px 4vw;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
         
     }
-    .about-resume > a {
+
+    .about-resume > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin: 2px;
+    }
+    .about-resume > div > a {
         position: absolute;
         text-decoration: none;
         width: 100%;
@@ -396,9 +401,10 @@ h1, h4, h3 {
         align-items: center;
         border-radius: 5px;
         transition: .2s linear;
+        margin: auto;
     }
 
-    .about-resume > a:hover  {
+    .about-resume > div > a:hover  {
         background-color: rgb(30, 190, 142);
         color: rgb(230, 230, 230);
         transition: color .2s linear;

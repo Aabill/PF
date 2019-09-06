@@ -22,8 +22,13 @@
                     <p>My ambition is to become a <b>full-stack developer. </b> When I'm not coding, I like to play guitar or sing, play basketball, or play some dota.</p>
             </div>
             <div class="about-resume">
+                <div>
                 <a href="files/Aaron's Resume.pdf" download> 
                   Download Resume </a>
+                </div>
+                <div>
+                <a href="files/Aaron's Seminars.docx" download>Download Seminars</a>
+                </div>
             </div>
 
         </div>
