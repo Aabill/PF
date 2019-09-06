@@ -27,7 +27,7 @@
                   Download Resume </a>
                 </div>
                 <div>
-                <a href="files/certs&semspdf.pdf" download>Certificates in Pdf</a>
+                <a href="files/certs&semspdf.pdf">Show Certificates</a>
                 </div>
             </div>
 
