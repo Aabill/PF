@@ -141,12 +141,7 @@
     border-radius: 5px 0 0 5px;
 }
 
-.skills-top-left, .skills-bot-left {
-    /* animation: leftanime .5s ease-in; */
-}
-.skills-top-right, .skills-bot-right {
-    /* animation: rightanime .5s ease-in; */
-}
+
 
 
 @keyframes leftanime {
