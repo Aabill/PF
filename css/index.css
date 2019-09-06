@@ -10,13 +10,40 @@
     
 }
 
+
+
 body {
+    display: relative;
+}
+
+.wrapper{
     display: grid;
     grid-auto-rows: minmax(10px, auto);
     padding: 0 10vw;
     position: relative;
 }
+.loading {
+    display: none;
+    position: absolute;
+    background-color: rgb(201, 201, 201);
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%,-50%);
+    transform: rotate(180deg);
 
+}
+
+.loading > span {
+    background-color: rgb(30, 190, 142);
+    display: block;
+    width: 100%;
+    max-height: 100%;
+    min-height: 10%;
+    transition: height 3s linear;
+    
+}
 
 .nav{
     display: grid;
@@ -69,7 +96,7 @@ body {
 .about {
     margin-top: 80px;
     display: grid;
-    grid-auto-columns: minmax(50px, auto);
+    grid-auto-rows: minmax(30px, auto);
     font-size: 15px;
 }
 .about-image {
@@ -78,8 +105,8 @@ body {
     background-image: url('/files/IMG_20190904_190702.jpg');
     background-size: cover;
     background-position: top;
-
 }
+
 .about-contact {
     padding: 15px;
     width: 100%;
@@ -240,12 +267,11 @@ h1, h4, h3 {
     background-color:  rgb(30, 190, 142);
     padding: 5px 25px 15px 25px;
     border-radius: 5px;
-    height: inherit;
+    max-height: 130px;
+    min-height: 50px;
     width: 80vw;
     overflow: auto;
-   
-    overflow-y: hidden;
-    white-space: nowrap;
+    
     
 }
 .projects > div > div > p,
@@ -260,13 +286,8 @@ h1, h4, h3 {
 
 
 
-
-
-
-
-
 @media only screen and (min-width: 768px){
-    body{
+    .wrapper{
         padding: 0 25vw;
     }
 
@@ -317,32 +338,29 @@ h1, h4, h3 {
         font-size: 18px;
     }
     .projects > div > div {
-
-        height: inherit;
         width: 100%;
-        overflow: unset;
-        margin: 0 auto;
-        overflow-y: hidden;
-        white-space: normal;
-        
-        
-        
     }
     .home {
         margin-top: 50px;
         font-size: 18px;
     }
+
     .about {
         margin-top: 10px;
-        grid-template-columns: 400px auto;
-
+        grid-template-columns: 200px auto;
+        grid-auto-rows: minmax(20px,auto);
+        font-size: 12px;
     }
-
-    .about-image {
-        width: 400px;
+    .about-image{
+        grid-column: 1/2;
+        
+        height: 300px;
+        width: 200px;
     }
     .about-note {
         grid-column: 1/2;
+        grid-row: 2/3;
+        margin-top: -15px;
         
     }
 
@@ -352,11 +370,19 @@ h1, h4, h3 {
         
     }
 
+    
+
     .about-contact-social {
         
     display: grid;
     grid-template-rows: repeat(4, 1fr);
 
+    }
+
+    .about-contact-social > span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .about-contact-social > span > a > i{
@@ -373,7 +399,7 @@ h1, h4, h3 {
         position: relative;
         width: inherit;
         height: inherit;
-        margin: 15px;
+        margin: 15px 4vw;
         
     }
     .about-resume > a {
@@ -397,6 +423,31 @@ h1, h4, h3 {
         transition: background-color .2s linear;
         
     }
+
+    
+    
+}
+
+
+
+
+@media only screen and (min-width: 1268px){
+    
+    .about {
+        
+        grid-template-columns: 400px auto;
+        font-size: 18px;
+
+    }
+    .about-note {
+        margin: 0;
+    }
+
+    .about-image {
+        width: 400px;
+        height: 500px;
+    }
+    
     
 
     

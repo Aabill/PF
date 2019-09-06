@@ -6,9 +6,9 @@
                 <div>
                 <h3><i class="fa fa-phone" aria-hidden="true"></i> Contact Details  </h3>
                 <p> Aaron Bill Domingo</p>
-                <p> <i class="fa fa-location-arrow" aria-hidden="true"></i> Bambang, Nueva Vizcaya, Philippines</p>
+                <p> <i class="fa fa-location-arrow" aria-hidden="true" ></i> Philippines</p>
                 <p><i class="fa fa-mobile" aria-hidden="true"></i> +63 961 139 6893</p>
-                <p ><i class="fa fa-envelope-o" aria-hidden="true"></i> domingoaaronbill@gmail.com</p>
+                <p > domingoaaronbill@gmail.com</p>
                 </div>
 
                 <div class="about-contact-social">
