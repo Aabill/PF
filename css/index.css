@@ -192,28 +192,28 @@ h1, h4, h3 {
 }
 
 .php-bar{
-    width: 55%;
+    width: 30%;
 }
 .js-bar{
-    width: 75%;
+    width: 60%;
 }
 .html-bar{
-    width: 80%;
+    width: 60%;
 }
 .c-bar {
     width: 55%;
 }
 .mysql-bar {
-    width: 75%;
+    width: 40%;
 }
 .laravel-bar {
-    width: 60%;
+    width: 30%;
 }
 .jquery-bar {
-    width: 70%;
+    width: 50%;
 }
 .bootstrap-bar {
-    width: 60%;
+    width: 30%;
 }
 .git-bar {
     width: 80%;
