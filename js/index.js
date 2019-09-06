@@ -1,20 +1,11 @@
 function loadDoc(url, cFunction) {
     var xhttp;
     xhttp=new XMLHttpRequest();
-    var hg = 25;
-    const load = $('#load');
-    const loading = $('.loading');
+    
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
         cFunction(this);
-        hg = 25;
-        loading.css('display','none');
-      }else{
-        hg += 25;
-        loading.css('display','block');
-        load.css('height', hg);
-        load.css('transition','height .4s linear');
-        
+       
       }
     };
     xhttp.open("GET", url, true);
