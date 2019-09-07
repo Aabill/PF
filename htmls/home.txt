@@ -3,13 +3,11 @@
             <h1>Hi! I'm Aaron!</h1>
         </div>
         <div>
-            <h4>just call me aron, ron or ey-eyron.</h4>
+            <h4>you can call me aron, ron or ey-eyron.</h4>
         </div>
         <div>
         
-        <p>I would like to apply as an  <b>  Associate Software Engineer</b> (entry level) or <b>Junior Software Engineer </b> (Back-End).
-
-        I am willing to learn new languages, tools or frameworks for the company.
+        <p>I'm applying as a  <b> Junior Web Developer </b> (entry level). There are more and many things that I still want to learn and as for now, I only know the basics.
 
         I am desperate to enhance and share my skills and on top of that, I am excited to learn more about coding.</p>
         
