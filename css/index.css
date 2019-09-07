@@ -195,16 +195,16 @@ h1, h4, h3 {
     width: 30%;
 }
 .js-bar{
-    width: 60%;
+    width: 50%;
 }
 .html-bar{
-    width: 60%;
+    width: 50%;
 }
 .c-bar {
-    width: 55%;
+    width: 40%;
 }
 .mysql-bar {
-    width: 40%;
+    width: 30%;
 }
 .laravel-bar {
     width: 30%;
