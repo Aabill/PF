@@ -20,7 +20,7 @@
                     </div>
                 </div>
                 <div>
-                c language
+                c# / arduino
                     <div class="progress-bar">
                         <span class="c-bar"></span>
                     </div>
@@ -47,6 +47,19 @@
                         <span class="bootstrap-bar"></span>
                     </div>
                 </div>
+                <div>
+                vue
+                    <div class="progress-bar">
+                        <span class="vue-bar"></span>
+                    </div>
+                </div>
+                <div>
+                codeigniter
+                    <div class="progress-bar">
+                        <span class="codeigniter-bar"></span>
+                    </div>
+                </div>
+                
             </div>
             <div class='skills-bot-left'>
                 <h3>Database</h3>
@@ -58,7 +71,7 @@
                 </div>
             </div>
             <div class='skills-bot-right'>
-                <h3>VC / Static Web Hosting</h3>
+                <h3>Version Control</h3>
                 <div>
                     git
                     <div class="progress-bar">
@@ -66,17 +79,25 @@
                     </div>
                 </div>
                 <div>
-                    netlify
+                    bitbucket
                     <div class="progress-bar">
-                        <span class="netlify-bar"></span>
+                        <span class="bitbucket-bar"></span>
                     </div>
                 </div>
             </div>
             <div class='skills-note'>
                 
-                <p>I recently got my Degree in Bachelor of Science in Computer Engineering at Saint Mary's University, Bayombong, Nueva Vizcaya. Sometime after I graduated, I was thinking about what I want to do. Then, I decided to become a web developer. But, I knew in me that I wasn't qualified yet, so I started learning with the internet. Now, I think I'm slightly ready to step it up.</p>
+                <!--<p>I recently got my Degree in Bachelor of Science in Computer Engineering at Saint Mary's University, Bayombong, Nueva Vizcaya. Sometime after I graduated, I was thinking about what I want to do. Then, I decided to become a web developer. But, I knew in me that I wasn't qualified yet, so I started learning with the internet. Now, I think I'm slightly ready to step it up.</p>
                 <p>I've been moderately practicing, reading and learning these things 
                 since june, for some days after our grad day.
+                </p>--!>
+                <p class="justify indent">
+                    I had a probation contract with <a href="https://tzilla.com" target="_blank"> tzilla.com</a> last october and unfortunately, due to lack of finances, the HQ decided to reduce several positions and I, who is still in the process of regularization, is one of the affected.
+                    
                 </p>
+                <p class="justify indent">
+                    Within my four months working as a Junior PHP Developer at tzilla, I have learned how to interact and work as a team in developing a website's requirements. I learned how to work with tools like basecamp, jira, bitbucket and agile development with git version control. I had my knowledge extended in JavaScript and Jquery - Ajax in particular and learned how to develop with PHP Framework - Codeigniter.
+                </p>
+                <br>
             </div>
         </div>

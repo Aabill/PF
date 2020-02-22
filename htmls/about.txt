@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div class='about-note'>
-                    <p>My ambition is to become a <b>full-stack developer. </b> When I'm not coding, I like to play guitar or sing, play basketball, or play some dota.</p>
+                    <p class="justify indent">My ambition is to become a <b>full-stack developer. </b> When I'm not coding, I like to play guitar or sing, play basketball, or produce some music.</p>
             </div>
             <div class="about-resume">
                 <div>
@@ -30,5 +30,6 @@
                 <a href="files/certs&semspdf.pdf" target="__blank">Show Certificates</a>
                 </div>
             </div>
+            <br>
 
         </div>

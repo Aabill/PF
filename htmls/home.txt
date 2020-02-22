@@ -3,13 +3,13 @@
             <h1>Hi! I'm Aaron!</h1>
         </div>
         <div>
-            <h4>just call me aron.</h4>
+            <h4>Just call me aron.</h4>
         </div>
         <div>
         
-        <p>I'm currently a junior software engineer at tzilla.com. There are more and many things that I still want to learn and as for now, I only know the basics.
-
-        I am desperate to enhance and share my skills and on top of that, I am excited to learn more about coding.</p>
+        <p class="justify indent" >
+            Learning while being able to help contribute or be a part of an awesome project would be fun. I am constantly learning and passionate at programming.
+        </p>
         
         </div>
         
