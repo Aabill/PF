@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div class='about-note'>
-                    <p class="justify indent">My ambition is to become a <b>full-stack developer. </b> When I'm not coding, I like to play guitar or sing, play basketball, or produce some music.</p>
+                    <p class="justify indent">Programming is <3. When I'm not coding, I like to play guitar or sing, play basketball, or produce some music.</p>
             </div>
             <div class="about-resume">
                 <div>
