@@ -302,10 +302,12 @@ h1, h4, h3 {
         top:0;
         height: 40px;
         grid-template-columns: repeat(4,1fr);
-        
+        margin-bottom: 20px;
         
     }
-    
+    .nav a.router-link-exact-active {
+        background-color: rgb(30, 190, 142, .3);
+    }
     .nav > span {
         display: flex;
         align-items: center;
