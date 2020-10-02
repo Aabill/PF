@@ -196,28 +196,28 @@ h1, h4, h3 {
 }
 
 .php-bar{
-    width: 55%;
+    width: 75%;
 }
 .js-bar{
-    width: 60%;
+    width: 80%;
 }
 .html-bar{
-    width: 60%;
+    width: 85%;
 }
 .c-bar {
-    width: 40%;
+    width: 65%;
 }
 .mysql-bar {
-    width: 60%;
+    width: 75%;
 }
 .laravel-bar {
-    width: 35%;
+    width: 70%;
 }
 .jquery-bar {
-    width: 60%;
+    width: 75%;
 }
 .bootstrap-bar {
-    width: 30%;
+    width: 60%;
 }
 .git-bar {
     width: 80%;
@@ -226,7 +226,7 @@ h1, h4, h3 {
     width: 50%;
 }
 .vue-bar {
-    width: 40%;
+    width: 70%;
 }
 .bitbucket-bar {
     width: 40%;
