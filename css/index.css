@@ -32,12 +32,16 @@
     
 }
 
-.nav{
+.nav {
     display: grid;
     margin-top: 45px;
     
 }
-.nav > span {
+
+.nav a {
+    text-decoration: none;
+}
+.nav  span {
     height: 40px;
     display: flex;
     justify-content: center;
@@ -293,11 +297,11 @@ h1, h4, h3 {
         display: none;
     }
     .nav {
-        display: grid;
+        display: grid!important;
         position: static;
         top:0;
         height: 40px;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(4,1fr);
         
         
     }

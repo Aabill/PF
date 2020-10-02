@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="css/index.css">
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
     <title>Aaron | Future Full Stack Developer</title>
 
 
 </head>
 <body>
-<div class="wrapper">
+<div id="app" class="wrapper">
         
     <div class="nav-burger">
         <span></span>
@@ -23,13 +25,27 @@
     </div>
     
     <div class="nav" style="display: none">
-        <span id='about' class="nav-min">About</span>
-        <span id='skills' class="nav-min">Skills</span>
-        <span id='projects' class="nav-min">Some Fun</span>
+        <router-link to="/">
+            <span id='home' class="nav-min">Home</span>
+        </router-link>
+        <router-link to="/about">
+            <span id='about' class="nav-min">About</span>
+        </router-link>
+        
+        <router-link to="/skills">
+            <span id='skills' class="nav-min">Skills</span>
+        </router-link>
+        <router-link to="/some-fun">
+            <span id='projects' class="nav-min">Some Fun</span>
+        </router-link>
+        
     </div>
-    <div id='here'></div>
+    <div id='here'>
+        <router-view></router-view>
+    </div>
     
 </div>
-    <script src="js/index.js"></script>
+    <!-- <script src="js/index.js"></script> -->
+    <script src="js/vue.js"></script>
 </body>
 </html>
