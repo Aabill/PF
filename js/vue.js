@@ -120,8 +120,7 @@ const Skills = {
     data: function () {
         return {
             note: {
-                first: `I am currently freelancing projects using html, scss in a framework called shopwired - upchannel. 
-                Doing some psd to html pages and using a php template engine called twig and some integrations (api).`,
+                first: `I am currently freelancing projects using html, scss - doing some psd to html pages and using a php template engine called twig and some integrations (api).`,
                 second: `Within my four months working as a Junior PHP Developer at,`,
                 third: `I have learned how to interact and work as a team in developing a website's requirements. I learned how to work with tools like basecamp, jira, bitbucket and agile development with git version control. I had my knowledge extended in JavaScript and Jquery - Ajax in particular and learned how to develop with PHP Framework - Codeigniter.`
             }
