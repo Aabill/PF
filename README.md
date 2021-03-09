@@ -3,4 +3,4 @@ Portfolio Netlify
 
 #My Portfolio Resume
 
-[a link](https://aabill.github.io/PF)
+[Check here](https://aabill.github.io/PF)
